@@ -24,7 +24,7 @@ function App() {
           
 
           
-           <Route   path='/buy' component={ Shop }/>  
+           <Route   path='/buy/:id' component={ Shop }/>  
 
          
           {/*  <Route  path='/tickets/:id' component={ Tickets }/>  */}
