@@ -1,10 +1,42 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,700&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@1,700&display=swap');
+:root{
+  /* Fonts */
+  --fira_sans: 'Fira Sans', sans-serif;
+  --sansita: 'Sansita', sans-serif;
+
+
+  /* Colours */
+  --pink_color: #F56B9A;
+   --white_color: #FFFFFF;
+ --green_color: #37AEAB; 
+ --dark_lila_color:#231F42;
+ --backgr_color:  #E5E5E5;
+ --gray_color:#D0D0D0;
+ --black_FS: rgba(0, 0, 0, 0.7);
+ --dark_gray_FS: rgba(0, 0, 0, 0.6);
+ --light_gray_FS: rgba(0, 0, 0, 0.4);
+ --ligth_FS: rgba(255, 255, 255, 0.8);
+ --super_light_FS : rgba(255, 255, 255, 0.7); 
+ /* dimension*/
+  --width: 375px ;
+  --height:667px
+}
+
 body {
   margin: 0;
+  padding:0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  background-color:var(--backgr_color) ;
+  
 }
 
 code {

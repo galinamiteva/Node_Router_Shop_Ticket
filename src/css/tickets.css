@@ -1,0 +1,126 @@
+.ticket-section{
+    position: relative;
+    top:0;
+    min-width: var(--width);
+    width: 400px;
+    height: var(--height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: var(--dark_lila_color);
+
+}
+
+.ticket-container{
+    position: relative;
+    top: -4rem;
+}
+
+.order {
+    width: 80%;
+    color: var(--pink_color);
+    font-style: italic;
+    text-align: center;
+    margin: 2rem auto;
+    font-weight: 700;
+    font-family: var(--sansita);
+    line-height: 2.55rem;
+    font-size: 2.19rem;    
+}
+
+.ticket-content {
+    background: var(--white_color);
+    border-radius: 0.1875rem;
+    border: 0.06625rem solid var(--super_light_FS);
+    font-family: var(--fira_sans);
+    border-radius: 0.1875px;
+    box-shadow: 0 0 2rem var(--super_light_FS);
+}
+.what span{
+    padding: .3rem;
+    color: var(--light_gray_FS);
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;    
+} 
+
+.what h4{
+    padding: .3rem;
+    padding-left: 1rem;
+    margin-top:.5rem ;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem; 
+    font-family: var(--sansita);   
+    color: var(--pink_color);
+}
+.where span {
+    padding: .3rem;
+    color: var(--light_gray_FS);
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;  
+}
+
+.where h4{
+    padding: .3rem;
+    padding-left: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1625rem;    
+    color: var(--black_FS);
+    padding-bottom: 0.3rem;
+    margin-top: .6rem;
+    margin-bottom: .2rem;
+}
+
+.what{
+    border-bottom: 0.0625rem dotted var(--light_gray_FS);       
+    background-color: var(--white_color);
+}
+
+.where{
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem dotted var(--light_gray_FS);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.time-date {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.06);
+   
+}
+
+.time-date span{
+    padding: 0.5rem 0;
+    display: flex;
+    font-family: var(--fira_sans);
+    font-weight: 700;
+    font-size: 0.625rem;
+    color: var(--light_gray_FS);
+}
+
+.time-date h4{
+    text-transform: capitalize;
+    color: var(--dark_gray_FS);
+    font-size: 1.1875rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.to, .date{
+    text-transform: uppercase;
+    padding: 0rem 2rem;
+}
+
+.from {
+    text-transform: uppercase;
+    padding: 0rem 2rem;
+    border-left: 0.0625rem dotted var(--light_gray_FS);
+    border-right: 0.0625rem dotted var(--light_gray_FS);
+
+}

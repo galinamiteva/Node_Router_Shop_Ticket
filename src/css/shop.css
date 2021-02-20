@@ -1,0 +1,102 @@
+
+.buy-section {
+  position: relative;
+  top:2rem;
+  min-width: var(--width);
+  width: 400px;
+  height: var(--height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--dark_lila_color);
+}
+
+.ticket-score {
+  
+    padding: 1.8rem ;
+    color: rgba(255,255,255,0.8);
+    font-family: var(--fira_sans);
+    font-weight:lighter;
+    font-size: 1.1875rem;
+    line-height: 1.43rem;
+    font-style: italic;
+    text-align: center;
+    width: 18.75rem;
+    margin: 0 auto;
+  }
+
+  .ticket-title {
+    font-size: 2.1875rem;
+    font-family: var(--sansita);
+    font-weight: lighter;
+    line-height: 2.54875rem;
+    text-align: center;
+    font-style: italic;
+    color: var(--pink_color);
+    font-weight: 700;
+  }
+
+  .date-time {
+    display: flex;    
+    align-items: center;
+    text-align: center;
+    color: var(--green_color);
+    line-height: 1.5rem;
+    padding-right: 0.5rem;
+    font-family: var(--fira_sans);
+    font-size: 1.1875rem;     
+    font-weight: bold;    
+    justify-content: center;
+   
+  }
+
+.location{
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-style:italic;
+    text-align: center;
+    font-family: var(--fira_sans);
+    font-weight: 400;
+    color: var(--super_light_FS);   
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.price{
+    font-family: var(--fira_sans);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--white_color);
+    text-shadow: 0.0625rem 0.0625rem 0 var(--pink_color);
+    margin-bottom: 6rem;
+
+}
+
+span{
+    margin-left: 2%;
+}
+
+.btn {
+    background-color: var(--green_color);
+    border: 0.0265rem solid rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: var(--white_color);
+    border-radius: 0.1875rem;
+    font-family: var(--fira_sans);
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 1.65rem;
+    width: 12rem;
+    height: 1.8rem;
+    padding: 1.2rem 4rem;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }

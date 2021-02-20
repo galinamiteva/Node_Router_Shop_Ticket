@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
-
-
-import View from './View'
+import View from './View';
+import '../css/events.css';
 
 function Events () {
     const [events, setEvents] = useState([]);
     
     
-  
+                                            //server --  app.get('/events',
        useEffect(async () => {
-        const response = await fetch('http://localhost:8000/get/events');    
+        const response = await fetch('http://localhost:8000/events');    
         const data = await response.json();
         setEvents(data);
         

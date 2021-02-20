@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 
 import Shop from './components/Shop';
-//import Tickets from './components/Tickets';
+import Tickets from './components/Tickets';
 import Events from './components/Events';
 import Error from './components/Error';
 
@@ -27,7 +27,7 @@ function App() {
            <Route   path='/buy/:id' component={ Shop }/>  
 
          
-          {/*  <Route  path='/tickets/:id' component={ Tickets }/>  */}
+          <Route  path='/tickets/:id' component={ Tickets }/>  
 
 
           <Route component={ Error } />

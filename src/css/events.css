@@ -1,0 +1,115 @@
+
+
+.events-section{
+  position: relative;
+  top:2rem;
+  min-width: var(--width);
+  width: 400px;
+  height: var(--height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--dark_lila_color);
+}
+
+a {
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.title {
+  position: relative;
+  font-family: var(--sansita);
+  color:var(--pink_color);
+  line-height: 2.54875rem;
+  font-size: 2.19rem;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-top: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.event-container {
+  color:var(--white_color);
+  display: flex;
+  align-items: center;
+  margin: 0.5rem auto;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.event-date{
+  width: 4rem;
+  height: 4rem;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+  border: 0.0625rem solid var(--white_color);
+  font-family: var(--fira_sans);
+  font-weight: 700;
+}
+
+
+.event-info{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color:var(--white_color);
+  height: 60%;
+}
+
+.event-title{
+  font-family: var(--fira_sans);
+  font-weight: 600;
+  text-shadow: 0.0625rem 0.0625rem 0 var(--pink_color);
+  font-size: 1.375rem;
+  margin-top:.5rem;
+  margin-bottom: 1rem;
+  color: var(--white_color);
+}
+
+.event-location{
+  font-size: 0.75rem;
+  font-weight:lighter;
+  font-family: var(--fira_sans);
+  font-style: italic;
+  color: var(--ligth_FS);
+  margin: 0;
+  line-height: 0.9rem;
+}
+
+.event-time-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12rem;
+  height: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.event-time{
+  font-size: 0.875rem;
+  color:var(--gray_color);
+  font-family: var(--fira_sans);
+  font-weight: 600;
+  line-height: 1rem;
+}
+.event-price {
+  font-size: 1.0625rem;
+  color: var(--green_color);
+  font-weight: 700;
+  line-height: 1rem;
+  font-family: var(--fira_sans);
+ 
+}
