@@ -1,6 +1,6 @@
 .ticket-section{
     position: relative;
-    top:0;
+    top:2rem;
     min-width: var(--width);
     width: 400px;
     height: var(--height);
